@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url(https://i.pinimg.com/originals/26/be/6d/26be6d8e39887dfd28c683e5ea5240f4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+   header{
+        background-color: #000000;
+        width: 100%;
+        z-index: 5;
+        position: fixed;
+    }
+  
+    .wrapper{
+        width: 90%;
+        margin: auto;
+    }
+  
+  .logo{
+    width: 30%;
+    float: left;
+    line-height: 100px;
+  }
+  .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: serif;
+    color: #ffffff;
+    letter-spacing: 5px;
+  }
+  
+  nav{
+    float: right;
+    line-height: 100px;
+  }
+  
+  nav a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  
+  /* Hover has to be on the colan */
+  nav a:hover{
+    color: #ffff00;
+  }
+  
+  h2{
+    text-align: center;
+    text-shadow: -4px 4px 20px #ffff00;
+    padding: 20px;
+    color: black;
+     
+  }
+  
+  h1{
+    color: black;
+    font-size: 6rem;
+    text-align: center;
+    font-family: impact;
+  /*  need to find a way to move text from top of map  */
+    padding: 150px;
+    text-shadow: -4px 4px 30px #ffff00;
+  }
+  
+  .container{
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+  }
+  
+  /* Check this out Jordan, something not right? */
+  #contact input[type="text"],
+  #contact textarea,
+  #contact button[type="submit"]{
+    font: 400 18px/22px "serif";
+  }
+  
+  #contact{
+    background-color: #000000;
+    padding: 30px;
+    margin: 50px 0px;
+    box-shadow: -3px 3px 100px #ffff00;
+    border-radius: 20px;
+  }
+  
+  fieldset{
+    border: medium none !important;
+    margin: 25px -11px 15px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+  
+  #contact input[type="text"],
+  #contact textarea{
+    width: 100%;
+    border: 1px solid #333333;
+    background-color: #ffffff;
+    margin: 0 0 5px;
+    padding: 10px;
+  }
+  
+  /* adjusted height in the html */
+  #contact textarea{
+    max-width: 100%;
+    resize: none;  
+  }
+  
+  #contact button[type="submit"]{
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background-color: #ffff00;
+    color: black;
+    margin: 0 0 15px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  #contact button[type="submit"]:hover {
+    background-color: #808000;
+  }
+  
+  footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+  
+  .fa{
+    padding:25px;
+    font-size: 25px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 7px 4px;
+    border-radius: 10px;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background-color: #3B5998;
+    color: white;
+  }
+  
+  .fa-instagram{
+    background-color: #d6249f;
+    color: white;
+  }
+  
+  .fa-twitter{
+    background-color: #04456d;
+    color: white;
+  }
+  footer img{
+    float: left;
+    display: block;
+    margin: -60px 60px;
+  }
